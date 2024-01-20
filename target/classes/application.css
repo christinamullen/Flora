@@ -1,0 +1,39 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#pane{
+    -fx-background-image: url("C:/Users/drcnm/OneDrive/CE/CS-256/Images/FloraBk.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 650,750;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+.enter-button{
+	-fx-font-size: 16px;
+	-fx-background-color: #906324;
+	-fx-border-width: 1px;
+	-fx-border-style: solid; 
+	-fx-border-color: #7c551f;
+	-fx-border-radius: 4px;
+	-fx-text-fill: white;
+	-fx-box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+	-fx-transform-translate: y(0);
+	-fx-transition: transform 150ms, box-shadow 150ms;
+}
+.green-button{
+	-fx-font-size: 16px;
+	-fx-background-color: #89a162;
+	-fx-border-width: 1px;
+	-fx-border-style: solid; 
+	-fx-border-color: #7c9257;
+	-fx-border-radius: 4px;
+	-fx-text-fill: white;
+	-fx-box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+	-fx-transform-translate: y(0);
+	-fx-transition: transform 150ms, box-shadow 150ms;
+}
+.top-button-group {
+	-fx-border-width: 2px;
+	-fx-border-color: #a1a19f;
+}
+
+
+
